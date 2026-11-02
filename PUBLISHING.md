@@ -40,6 +40,6 @@ A published version cannot be edited. Fix mistakes in a new version.
 | Server | Registry name | Status |
 |---|---|---|
 | Twinning | `com.cmdrvl/twinning` | Published 0.7.1. Source of truth is `registry/server.json` in the twinning repo |
-| Receipts | `com.cmdrvl/receipts` | Draft `server.json`, not published |
+| Receipts | `com.cmdrvl/receipts` | Published 0.1.0 (2026-11-02). Source of truth is `servers/receipts/server.json` here |
 
 Vigil KYC is an HTTP API, not an MCP server, so it has no registry entry. It is listed in the Stripe Directory.
