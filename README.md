@@ -1,6 +1,6 @@
 # CMD+RVL MCP servers and agent APIs
 
-Where to find and connect to the MCP servers and agent-callable APIs from [CMD+RVL](https://cmdrvl.com). This repo holds docs and registry metadata only. There is no server source code here.
+Where to find and connect to the MCP servers and agent-callable APIs from [CMD+RVL](https://cmdrvl.com). This repo holds docs, registry metadata, and editor plugin configs (`plugins/`). There is no server source code here.
 
 Support: cairn@cmdrvl.com
 
@@ -41,7 +41,7 @@ Claude Code:
 claude mcp add twins -- npx @cmdrvl/twinning-mcp
 ```
 
-Cursor and other clients take the same command in their stdio config. Full install options, including prebuilt binaries and Homebrew, are in the [twinning repo](https://github.com/cmdrvl/twinning). Product page: https://cmdrvl.com/twinning/
+Cursor and other clients take the same command in their stdio config. A Cursor plugin for Twinning is in [plugins/twinning](plugins/twinning/) and is submitted to the Cursor Marketplace. Full install options, including prebuilt binaries and Homebrew, are in the [twinning repo](https://github.com/cmdrvl/twinning). Product page: https://cmdrvl.com/twinning/
 
 ## Paid HTTP APIs
 

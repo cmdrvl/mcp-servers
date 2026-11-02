@@ -1,0 +1,18 @@
+{
+  "name": "cmdrvl-mcp-servers",
+  "owner": {
+    "name": "CMD+RVL",
+    "email": "cairn@cmdrvl.com"
+  },
+  "metadata": {
+    "description": "MCP servers and agent tools from CMD+RVL",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "cmdrvl-twinning",
+      "source": "./plugins/twinning",
+      "description": "Local twins of Postgres, REST and Snowflake contracts for agents and tests, with a JSON report."
+    }
+  ]
+}

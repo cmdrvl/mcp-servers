@@ -1,0 +1,15 @@
+{
+  "name": "cmdrvl-twinning",
+  "displayName": "CMD+RVL Twinning",
+  "version": "0.1.0",
+  "description": "Local twins of Postgres, REST and Snowflake contracts for your agent to create, use and tear down, with a JSON report of what happened. Nothing touches production.",
+  "author": {
+    "name": "CMD+RVL",
+    "email": "cairn@cmdrvl.com"
+  },
+  "homepage": "https://cmdrvl.com/twinning/",
+  "repository": "https://github.com/cmdrvl/mcp-servers",
+  "license": "MIT",
+  "keywords": ["mcp", "postgres", "snowflake", "openapi", "testing", "twin", "agents"],
+  "logo": "assets/logo.svg"
+}
