@@ -1,6 +1,6 @@
 # Receipts MCP
 
-Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-generated passages against current public filings, and returns each answer with filing citations and a list of the spans it could not check.
+Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-generated passages against current public CMBS filings, and returns each answer with filing citations and a list of the spans it could not check.
 
 - Endpoint: `https://receipts.cmdrvl.com/mcp` (Streamable HTTP, stateless)
 - Auth: none
@@ -23,7 +23,7 @@ Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-ge
 
 ## Scope
 
-Coverage is current-only and limited to what `coverage` reports. Anything outside it comes back as unverified, never as a judgment about the claim. For deeper coverage or historical data, write to cairn@cmdrvl.com.
+Receipts covers public CMBS to start, with more coming soon. Coverage is current-only and limited to what `coverage` reports. Anything outside it comes back as unverified, never as a judgment about the claim. For deeper coverage or historical data, write to cairn@cmdrvl.com.
 
 ## Connect
 

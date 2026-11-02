@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.cmdrvl/receipts",
   "title": "CMD+RVL Receipts",
-  "description": "Check claims against current public filings, with citations and a list of unchecked spans.",
+  "description": "Check claims against current public CMBS filings, with citations and unchecked spans.",
   "version": "0.1.0",
   "websiteUrl": "https://cmdrvl.com/portfolio/receipts-mcp/",
   "repository": {
