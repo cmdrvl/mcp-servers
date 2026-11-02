@@ -8,7 +8,7 @@ Support: cairn@cmdrvl.com
 
 | Server | What it does | Connection | Auth | Cost |
 |---|---|---|---|---|
-| [Receipts](servers/receipts/) | Checks covered claims in commentary, articles, and AI-generated passages against current public CMBS filings, with citations and a list of what it could not check. Public CMBS only to start, more coming soon | Remote, `https://receipts.cmdrvl.com/mcp` | None | Free |
+| [Receipts](servers/receipts/) | Checks covered claims in commentary, articles, and AI-generated passages against current public CMBS filings, with citations and a list of what it could not check. Public CMBS filings and NPORT-P coupons to start, more coming soon | Remote, `https://receipts.cmdrvl.com/mcp` | None | Free |
 | [Twinning](servers/twinning/) | Runs local twins of Postgres, REST, and Snowflake contracts so agents and tests never touch production | Local, `npx @cmdrvl/twinning-mcp` | None | Free, open source (MIT) |
 
 Both are listed in or headed for the [official MCP Registry](https://registry.modelcontextprotocol.io). Twinning is published as `com.cmdrvl/twinning`.

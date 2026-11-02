@@ -1,6 +1,6 @@
 # Receipts MCP
 
-Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-generated passages against current public CMBS filings, and returns each answer with filing citations and a list of the spans it could not check.
+Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-generated passages against current public CMBS filings and NPORT-P coupons, and returns each answer with filing citations and a list of the spans it could not check.
 
 - Endpoint: `https://receipts.cmdrvl.com/mcp` (Streamable HTTP, stateless)
 - Auth: none
@@ -19,11 +19,11 @@ Claim in, receipt out. Receipts checks claims in commentary, articles, and AI-ge
 | `find_deals` | Resolve a covered deal by name, CIK, alias, shelf, vintage, or deal reference |
 | `verify_loan_field` | Verify one current loan-level fact |
 | `verify_deal_field` | Verify one current pool-level fact |
-| `verify_fund_holding_coupon` | Verify a supported security's annualized coupon rate against N-PORT filings |
+| `verify_fund_holding_coupon` | Verify a supported security's annualized coupon rate against NPORT-P filings |
 
 ## Scope
 
-Receipts covers public CMBS to start, with more coming soon. Coverage is current-only and limited to what `coverage` reports. Anything outside it comes back as unverified, never as a judgment about the claim. For deeper coverage or historical data, write to cairn@cmdrvl.com.
+Receipts covers public CMBS and NPORT-P coupons to start, with more coming soon. Coverage is current-only and limited to what `coverage` reports. Anything outside it comes back as unverified, never as a judgment about the claim. For deeper coverage or historical data, write to cairn@cmdrvl.com.
 
 ## Connect
 
