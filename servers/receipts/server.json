@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.cmdrvl/receipts",
-  "title": "CMD+RVL Receipts",
-  "description": "Check claims against current public CMBS filings and NPORT-P coupons, with citations.",
-  "version": "0.1.0",
-  "websiteUrl": "https://cmdrvl.com/portfolio/receipts-mcp/",
+  "title": "CMD+RVL Receipts: CMBS MCP Server",
+  "description": "CMBS MCP server: check claims against current public filings and NPORT-P coupons, with citations.",
+  "version": "0.1.1",
+  "websiteUrl": "https://cmdrvl.com/tools/receipts/",
   "repository": {
     "url": "https://github.com/cmdrvl/mcp-servers",
     "source": "github",
