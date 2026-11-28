@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.cmdrvl/receipts",
   "title": "CMD+RVL Receipts: Free CMBS MCP Server",
-  "description": "Free CMBS MCP server: verify claims against public CMBS filings and NPORT-P coupons, with citations.",
-  "version": "0.1.1",
+  "description": "Free CMBS MCP server: verify claims on CMBS filings and NPORT-P coupons, with citations. No key.",
+  "version": "0.1.2",
   "websiteUrl": "https://cmdrvl.com/tools/receipts/",
   "repository": {
     "url": "https://github.com/cmdrvl/mcp-servers",
